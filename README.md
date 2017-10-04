@@ -25,14 +25,15 @@ $ ionic cordova run ios
 Substitute ios for android if not on a Mac.
 
 
-### RHMAP 3.18.2 
+### Issues RHMAP 3.18.2
 
  - Fixing visualization in RHMAP preview
-  - comment the line /www from .gitignore 
+  - comment the line /www from .gitignore
 
- - Fixing incompatibility with RHMAP buildfarm 
-  - Downgrade the default version of ionic2 cordova-android plugin. 
-  - Instructions: 
-    $ ionic cordova platform remove android 
-    $ ionic cordova platform add android 
-
+ - Fixing incompatibility with RHMAP build-farm
+  - Downgrade the default version of ionic2 cordova-android plugin.
+  - Instructions:
+  ```bash
+    $ ionic cordova platform remove android
+    $ ionic cordova platform add cordova-android@5.1.1  
+  ```
