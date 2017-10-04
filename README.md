@@ -28,7 +28,7 @@ Substitute ios for android if not on a Mac.
 ### Issues RHMAP 3.18.2
 
  - Fixing visualization in RHMAP preview
-   - comment the line ```bash /www ``` from .gitignore
+   - comment the line ``` #/www ``` from .gitignore
 
  - Fixing incompatibility with RHMAP build-farm
    - Downgrade the default version of ionic2 cordova-android plugin.
