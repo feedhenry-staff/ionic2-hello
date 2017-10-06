@@ -1,5 +1,14 @@
 # Getting Started With Ionic2 and RHMAP
 
+### Index 
+
+
+ * **[Creating a Mobile App](#clien)**
+ * **[Creating a Cloud App](#cloud)**
+ * **[Working in Local](#local)**
+ * **[Issues and Workarounds](#issues)**
+
+<a name="client"></a>
 ## Creating a mobile app
 
 In this example we are going to use ionic tabs template. 
@@ -48,6 +57,7 @@ $ ionic cordova run android #Android
 ![client app](https://github.com/feedhenry-staff/ionic2-hello/blob/master/images/home.png)
 
 
+<a name="cloud"></a>
 ## Cloud Application 
 
 Now that we have our client Application is time to create a cloud app to talk with, to do this we just need to go to our project and create a new cloud app by clicking the add button. 
@@ -57,6 +67,7 @@ Now that we have our client Application is time to create a cloud app to talk wi
 - Click deploy. 
 
 
+<a name="local"></a>
 ### Working with your server in local. 
 
 
@@ -90,7 +101,6 @@ function stop_redis {
 }
   
 ```
-    
 - After doing this just do  ```bash source .profile  ```
 
 - Now you can start a Mongodb container by just doing. 
@@ -99,8 +109,6 @@ function stop_redis {
 $ new_mongo 
 $ new_redis 
 ```
-
-
 
 #### Working 
 
@@ -121,18 +129,18 @@ $ npm remove fh-mbaas-api
 $ npm install fh-mbaas-api
 ```
 
+<a name="issues"></a>
 ### Issues RHMAP 3.18.2
 
  - Fixing visualization in RHMAP preview
     - comment the line ``` #/www ``` from .gitignore
 
-
  - Fixing incompatibility with RHMAP build-farm
    - Downgrade the default version of ionic2 cordova-android plugin.
    - Instructions:
+
    ```bash
      $ ionic cordova platform remove android
      $ ionic cordova platform add cordova-android@5.2.0  
    ```
-
 
