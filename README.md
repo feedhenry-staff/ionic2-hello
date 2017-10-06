@@ -4,7 +4,7 @@
 
 In this example we are going to use ionic tabs template. 
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Take the name after 'ionic2-starter-', and that is the name of the template to be used when using the `ionic start` command below:
 
 ```bash
 $ sudo npm install -g ionic cordova
