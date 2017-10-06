@@ -35,9 +35,7 @@ $ ionic cordova run android #Android
 
 - Import from: Bare Repo and select "Start from Scratch" option. 
 
-- Now go to your project folder in your local machine and add the remote that will presented in step two of that screen. 
-
-
+- Now go to your project folder in your local machine and add the remote that will presented in step two of that screen.
    ```bash
    git init #initialize the git repository if not done before. 
    git add . 
