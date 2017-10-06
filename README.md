@@ -1,12 +1,11 @@
-This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
+# Getting Started With Ionic2 and RHMAP
 
-## How to use this template
+## Creating a mobile app
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## How to use this templat### With the Ionic CLI:
 
-### With the Ionic CLI:
+In this example we are going to use ionic tabs template. 
 
 Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
 
@@ -15,14 +14,19 @@ $ sudo npm install -g ionic cordova
 $ ionic start myTabs tabs
 ```
 
+This will create a empty project myTabs with a tabs based mobile application ionic template.  
+
+## Run in simulator or mobile device. 
+
 Then, to run it, cd into `myTabs` and run:
 
 ```bash
+$ ionic cordova platform add cordova-android@5.2.0 #compatible with MAP-3.18 & Android Studio .
 $ ionic cordova platform add ios
-$ ionic cordova run ios
-```
 
-Substitute ios for android if not on a Mac.
+$ ionic cordova run ios
+$ ionic cordova run android #Android
+```
 
 
 ### Issues RHMAP 3.18.2
@@ -35,5 +39,7 @@ Substitute ios for android if not on a Mac.
    - Instructions:
    ```bash
      $ ionic cordova platform remove android
-     $ ionic cordova platform add cordova-android@5.1.1  
+     $ ionic cordova platform add cordova-android@5.2.0  
    ```
+
+
