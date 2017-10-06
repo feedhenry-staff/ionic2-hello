@@ -37,14 +37,13 @@ $ ionic cordova run android #Android
 
 - Now go to your project folder in your local machine and add the remote that will presented in step two of that screen. 
 
-
-   ```bash
+```bash
    git init #initialize the git repository if not done before. 
    git add . 
    git commit -m 'Initial'
    git remote add feedhenry git@git.remote:location.com/your-repo.git 
    git push feedhenry master 
-   ```
+```
 
 
 - Click next and your client should be imported successfully. 
