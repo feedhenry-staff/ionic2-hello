@@ -1,4 +1,4 @@
-# Getting Started With Ionic2 and RHMAP
+# Getting Started With Ionic 2 and RHMAP
 
 ### Index 
 
