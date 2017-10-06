@@ -51,6 +51,8 @@ $ ionic cordova run android #Android
 
 
 
+![client app](https://github.com/feedhenry-staff/ionic2-hello/blob/master/images/home.png)
+
 
 
 ### Issues RHMAP 3.18.2
@@ -66,5 +68,4 @@ $ ionic cordova run android #Android
      $ ionic cordova platform add cordova-android@5.2.0  
    ```
 
-![client app](https://github.com/feedhenry-staff/ionic2-hello/blob/master/images/home.png)
 
