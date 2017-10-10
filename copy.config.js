@@ -4,5 +4,6 @@
 let originalCopyConfig = require('@ionic/app-scripts/config/copy.config')
 
 originalCopyConfig.copyIndexContent.src.push('./fhconfig.json');
+originalCopyConfig.copyIndexContent.src.push('./google-services.json');
 
 module.exports = originalCopyConfig;
