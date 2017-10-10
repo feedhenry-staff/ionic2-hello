@@ -41,6 +41,6 @@ export class PushNotification {
 
     registrationError(err) {
         debugger
-        console.log('Registration error');
+        console.log('Registration error : ', err);
     }
 }
