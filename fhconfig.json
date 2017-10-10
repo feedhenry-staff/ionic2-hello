@@ -1,8 +1,8 @@
 {
-  "appid": "e5xx3rgsil6wtonifcjrrl2c",
-  "appkey": "713f0781feb7f665c1dcba83c4bcbd87c7a17e61",
-  "apptitle": "chat-me",
-  "connectiontag": "0.0.9",
-  "host": "your-host-here",
-  "projectid": "e5xx3rf4buqtf52gccxpj32z"
+    "appid": "e5xx3rgsil6wtonifcjrrl2c",
+      "appkey": "713f0781feb7f665c1dcba83c4bcbd87c7a17e61",
+        "apptitle": "chat-me",
+          "connectiontag": "0.0.9",
+            "host": "https://polisen.us.evals.redhatmobile.com",
+              "projectid": "e5xx3rf4buqtf52gccxpj32z"
 }
