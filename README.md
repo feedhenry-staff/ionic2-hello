@@ -147,7 +147,7 @@ Now you need to modify your [copy.config.js](https://github.com/feedhenry-staff/
 
 ##### Plugin
 
-**Mac Only**
+**Mac Only**:
 Make sure Ruby and Gem are up to date:
 
 ```bash
