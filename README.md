@@ -146,7 +146,18 @@ Now you need to modify your [copy.config.js](https://github.com/feedhenry-staff/
 ```
 
 ##### Plugin
+
+**Mac Only**
+Make sure Ruby and Gem are up to date:
+
+```bash
+gem update --system
+gem update bundler
+```
+
 Next step is to download [aerogear-push-plugin](https://www.npmjs.com/package/aerogear-cordova-push).
+
+
 
 ```bash
   $ cordova plugin add https://github.com/aerogear/aerogear-cordova-push.git --save
@@ -158,7 +169,7 @@ Next step is to download [aerogear-push-plugin](https://www.npmjs.com/package/ae
 Go to your Client App->Push->Android and fill the form using the information from firebase->cloud messaging section.
 
   ```bash
-     
+
     RHMAP                 FIREBASE
     Service Key   ==>     Legacy Server Key
     Sender ID     ==>     Server ID
