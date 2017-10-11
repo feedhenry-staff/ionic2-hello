@@ -97,12 +97,10 @@ function stop_mongo {
   docker stop mongodb
   docker rm mongodb
 }
-}
 
 function stop_redis {
   docker stop redis
   docker rm redis 
-}
 }
 
 ```
