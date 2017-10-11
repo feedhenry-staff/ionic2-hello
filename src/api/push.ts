@@ -1,7 +1,7 @@
 import * as $fh from 'fh-js-sdk';
 import _ from 'underscore';
 
-debugger;
+
 const signature = ['alias', 'categories'];
 
 function validate(params, signature) {
@@ -29,18 +29,15 @@ export class PushNotification {
         );
     }
 
-    handleNotification(registration) {
-        debugger;
+    handleNotification(registration) {;
         console.log('Notification is comming!!');
     }
 
     registration() {
-        debugger
         console.log('Registration OK');
     }
 
     registrationError(err) {
-        debugger
         console.log('Registration error : ', err);
     }
 }

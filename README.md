@@ -86,19 +86,23 @@ Now that we have our client Application is time to create a cloud app to talk wi
 # you can group this functions into one if you like.
 
 function new_mongo {
-  docker run -d -p 27017:27017 mongo
+  docker run -d --name mongodb -p  27017:27017 mongo 
 }
 
 function new_redis {
-  docker run -d -p 6379:6379 redis:3.2
+  docker run -d  --name redis  -p 26379:6379 redis:3.2
 }
 
 function stop_mongo {
   docker stop mongodb
+  docker rm mongodb
+}
 }
 
 function stop_redis {
   docker stop redis
+  docker rm redis 
+}
 }
 
 ```
