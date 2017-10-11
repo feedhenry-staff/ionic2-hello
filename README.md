@@ -179,6 +179,10 @@ Go to your Client App->Push->Android and fill the form using the information fro
     Sender ID     ==>     Server ID
   ```
 
+##### Code Example 
+
+You can find an example of a Push ready class [here](https://gist.github.com/cesarvr/2e32deac4b0afcfb71ab818d264b75f2).
+
 
 
 <a name="issues"></a>
