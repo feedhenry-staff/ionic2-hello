@@ -159,16 +159,15 @@ gem update bundler
 
 Next step is to download [aerogear-push-plugin](https://www.npmjs.com/package/aerogear-cordova-push).
 
-
-
 ```bash
   $ cordova plugin add https://github.com/aerogear/aerogear-cordova-push.git --save
 ```
 
-
 ##### RHMAP
 
 Go to your Client App->Push->Android and fill the form using the information from firebase->cloud messaging section.
+
+Here is how to map the information between the two places. 
 
   ```bash
 
@@ -177,10 +176,13 @@ Go to your Client App->Push->Android and fill the form using the information fro
     Sender ID     ==>     Server ID
   ```
 
+
 ##### Code Example 
 
-You can find an example of a Push ready class [here](https://gist.github.com/cesarvr/2e32deac4b0afcfb71ab818d264b75f2).
+You can find an [example class](https://gist.github.com/cesarvr/2e32deac4b0afcfb71ab818d264b75f2) here, its ready to subscribe to UPS and handle the states. 
 
+
+[Documentation](https://access.redhat.com/documentation/en-us/red_hat_mobile_application_platform/4.3/html/cloud_api/fh-push).
 
 
 <a name="issues"></a>
@@ -200,3 +202,4 @@ You can find an example of a Push ready class [here](https://gist.github.com/ces
 
  - My fhconfig.js is not being added to the www/ folder.
    - You need to extend the Ionic 2 [Builder scripts](https://ionicframework.com/docs/developer-resources/app-scripts/), this demo includes the script to achieve that copy.config.js.
+
