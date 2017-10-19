@@ -202,4 +202,12 @@ You can find an [example class](https://gist.github.com/cesarvr/2e32deac4b0afcfb
 
  - My fhconfig.js is not being added to the www/ folder.
    - You need to extend the Ionic 2 [Builder scripts](https://ionicframework.com/docs/developer-resources/app-scripts/), this demo includes the script to achieve that copy.config.js.
+ 
+
+ - After building my app in the platform, the app can't find the cordova plugins. 
+   - This happens when you use https/git repos as a source for the plugin, to solve this you need to push the ``` #/plugins ```  to your RHMAP/Project repo.  
+ 
+
+
+
 
