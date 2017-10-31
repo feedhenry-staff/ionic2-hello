@@ -207,6 +207,18 @@ You can find an [example class](https://gist.github.com/cesarvr/2e32deac4b0afcfb
  - After building my app in the platform, the app can't find the cordova plugins. 
    - This happens when you use https/git repos as a source for the plugin, to solve this you need to push the ``` #/plugins ```  to your RHMAP/Project repo.  
  
+ - Error: 
+```bash
+  Error: spawn EACCES
+``` 
+ Solution: 
+  Chaging the permission of the gradle executable fix the problem: 
+
+```bash
+ chmod 066 /Applications/Android\ Studio.app/Contents/gradle/gradle-4.1/bin/gradle
+```
+ 
+
 
 
 
