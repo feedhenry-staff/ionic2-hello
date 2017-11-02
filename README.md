@@ -217,6 +217,21 @@ You can find an [example class](https://gist.github.com/cesarvr/2e32deac4b0afcfb
 ```bash
  chmod 066 /Applications/Android\ Studio.app/Contents/gradle/gradle-4.1/bin/gradle
 ```
+
+- Error: 
+```bash
+cordova run ios 
+
+Error: Command failed: xcrun simctl list --json
+dyld: Library not loaded: /Library/Developer/PrivateFrameworks/CoreSimulator.framework/Versions/A/CoreSimulator
+  Referenced from: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl
+  Reason: image not found
+``` 
+
+Solution: 
+ The script wasn't able to find any iOS simulator check the installation of xcode in your laptop. 
+ 
+
  
 
 
